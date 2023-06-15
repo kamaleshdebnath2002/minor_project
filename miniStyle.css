@@ -1,0 +1,237 @@
+
+
+        .hf
+        {
+            color: rgb(36, 234, 201);
+            background-image: linear-gradient(120deg,#d9b02a, #81ef62);
+            text-align: center;
+            font-size: 35px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            left: 0px;
+            border-radius: 7px;
+            box-shadow: 5px 5px 7px black;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+
+        .h
+        {
+            font-size: 18px;
+            color: black;
+            font-weight: 550;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .x
+        {
+            margin-top: 20px;
+            margin-bottom: 0px;
+            color: rgb(255, 0, 93);
+            font-size: 25px;
+        }
+
+        .y
+        {
+            margin-top: 0px;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        
+        header
+        {
+            top: 0px;
+        }
+
+        footer
+        {
+            bottom: 7px;
+        }
+        
+        #a{grid-area: a1;}
+        #b{grid-area: b1;}
+        #a1{grid-area: aa1;}
+        #c{grid-area: a2;}
+        #d{grid-area: b2;}
+        #a2{grid-area: aa2;}
+        #e{grid-area: a3;}
+        #f{grid-area: b3;}
+        #a3{grid-area: aa3;}
+        #g{grid-area: a4;}
+        #h{grid-area: b4;}
+        #a4{grid-area: aa4;}
+        #i{grid-area: a5;}
+        #j{grid-area: b5;}
+    
+    
+    
+        .grd
+    
+        {
+            display:grid;
+            grid-template-areas:
+            'a1 b1'
+            'aa1 aa1'
+            'a2 b2'
+            'aa2 aa2'
+            'a3 b3'
+            'aa3 aa3'
+            'a4 b4'
+            'aa4 aa4'
+            'a5 b5'; 
+            text-align: center;     
+        }
+
+        
+
+        .img
+        {
+            height: 220px;
+            width: 390px;
+            border-radius: 7px;
+            margin-left: 9px;
+            margin-top: 9px;
+        }
+
+        .textgadient
+        {
+            margin-left: 10px;
+            font-size: 50px;
+            background: -webkit-linear-gradient(89.1deg,#cc2b5e, #753a88);
+            -webkit-background-clip: text;
+            background-clip: var();
+            -webkit-text-fill-color: transparent;
+            font-weight: 600;
+        }
+
+        .a 
+        {
+            border-top: rgb(0, 0, 0);
+            border-width: 2px;
+            border-style: solid;
+            border-bottom: 0px;
+            border-left: 0px;
+            border-right: 0px;
+            margin-right: 10px;
+            margin-left: 10px;
+            box-shadow: 0px 1px 5px black;
+        }
+
+        .b
+        {
+            margin-top: 15px;
+        }
+
+        .c 
+        {
+            margin-top: 3px;
+        }
+
+        .d 
+        {
+            margin-left: 15px;
+            color:rgb(0, 0, 0);
+            margin-top: 4px;
+            font-size: 25px;
+            margin-bottom: 30px;
+        }
+
+        .e 
+        {
+            margin-top: 5px;
+            margin-right: 10px;
+        }
+
+        .f 
+        {
+            margin-left: 10px;
+        }
+
+        .g 
+        {
+            background-color: bisque;
+            border-radius: 5px;
+            font-size: 25px;
+            border-color: blue;
+
+        }
+
+        .i 
+        {
+            background-color: skyblue;
+            font-size: 25px;
+            border-radius: 5px;
+            border-color: blue;
+        }
+
+        .j 
+        {
+            font-size: 20px;
+            margin-left: 20px;
+        }
+
+        .k
+        {
+            margin-right: 10px;
+            color: rgb(84, 80, 80);
+        }
+
+.image-container{
+
+            color: black;          
+            background-image: linear-gradient(120deg,#d98d2a, #d7ef62);
+            text-align: center;
+            font-size: 35px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            left: 0px;
+            border-radius: 7px;
+            box-shadow: 5px 5px 7px black;
+            margin-left: 25px;
+            margin-right: 25px;
+            overflow: hidden;
+}
+.image-container img{
+    height: 70px ;
+    width:100px ;
+
+
+}
+
+.hf  #zoom-in figure img{
+    transform: scale(1);
+	transition: 0.3s ease-in-out;
+
+}
+
+.hf #zoom-in figure :hover img{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+header.hf {
+    background-image: linear-gradient(120deg, #82f761,#fdd16a);
+    color: blue;
+}
+footer.hf {
+
+    background-image: linear-gradient(120deg,#02871f, #3dbdbd);
+    color: #fcfcfc;
+
+}
+.hfty {
+    color: rgb(9, 29, 245);          
+    background-image: linear-gradient(120deg,#f8edca, #c6cced);
+    text-align: center;
+    font-size: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    left: 0px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 7px black;
+    margin-left: 25px;
+    margin-right: 25px;
+    overflow: hidden;
+}
+a[target=_blank], a[href^="http"] {
+    background-image: url(external-link.svg) ;
+     background-repeat: no-repeat;
+    background-position: top right;
+    padding-right: 1.5em;
+}
